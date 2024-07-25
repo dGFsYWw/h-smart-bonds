@@ -134,129 +134,117 @@
    <div class="mb-4">
     <h2 class="text-xl font-bold mb-2 text-white">Token configuration</h2>
     <div class="mb-2">
-      <label
-        for="can-burn"
-        class="flex items-center cursor-pointer select-none"
-      >
+      <label for="can-burn" class="flex items-center cursor-pointer select-none relative group">
         <div class="relative">
-          <input
-            type="checkbox"
-            id="can-burn"
-            class="peer sr-only"
-          />
-          <div
-            class="block h-8 rounded-full bg-gray-300 w-14"
-          ></div>
-          <div
-            class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"
-          ></div>
+          <input type="checkbox" id="can-burn" class="peer sr-only" />
+          <div class="block h-8 rounded-full bg-gray-300 w-14"></div>
+          <div class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"></div>
         </div>
         <span class="text-white">Can Burn</span>
+        <div class="relative">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-6 h-6 ml-2 peer">
+            <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+          </svg>
+          <div class="absolute top-1/2 transform -translate-y-1/2 ml-2 bg-white border border-gray-300 p-4 w-48 opacity-0 pointer-events-none transition-opacity duration-300 peer-hover:opacity-100 peer-hover:pointer-events-auto z-10"  style="right: -200px; top: 50%">
+            Enables token burning after initial token creation to decrease supply.
+          </div>
+        </div>
       </label>
     </div>
     <div class="mb-2">
-      <label
-        for="can-mint"
-        class="flex items-center cursor-pointer select-none"
-      >
+      <label for="can-mint" class="flex items-center cursor-pointer select-none relative group">
         <div class="relative">
-          <input
-            type="checkbox"
-            id="can-mint"
-            class="peer sr-only"
-          />
-          <div
-            class="block h-8 rounded-full bg-gray-300 w-14"
-          ></div>
-          <div
-            class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"
-          ></div>
+          <input type="checkbox" id="can-mint" class="peer sr-only" />
+          <div class="block h-8 rounded-full bg-gray-300 w-14"></div>
+          <div class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"></div>
         </div>
         <span class="text-white">Can Mint</span>
+        <div class="relative">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-6 h-6 ml-2 peer">
+            <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+          </svg>
+          <div class="absolute top-1/2 transform -translate-y-1/2 ml-2 bg-white border border-gray-300 p-4 w-48 opacity-0 pointer-events-none transition-opacity duration-300 peer-hover:opacity-100 peer-hover:pointer-events-auto z-10"  style="right: -200px; top: 50%">
+            Enables token burning after initial token creation to increase supply.
+          </div>
+        </div>
       </label>
     </div>
     <div class="mb-2">
-      <label
-        for="Set-Total-Supply-Cap"
-        class="flex items-center cursor-pointer select-none"
-      >
+      <label for="supply-cap" class="flex items-center cursor-pointer select-none relative group">
         <div class="relative">
-          <input
-            type="checkbox"
-            id="Set-Total-Supply-Cap"
-            class="peer sr-only"
-          />
-          <div
-            class="block h-8 rounded-full bg-gray-300 w-14"
-          ></div>
-          <div
-            class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"
-          ></div>
+          <input type="checkbox" id="supply-cap" class="peer sr-only" />
+          <div class="block h-8 rounded-full bg-gray-300 w-14"></div>
+          <div class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"></div>
         </div>
         <span class="text-white">Set Total Supply Cap</span>
+        <div class="relative">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-6 h-6 ml-2 peer">
+            <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+          </svg>
+          <div class="absolute top-1/2 transform -translate-y-1/2 ml-2 bg-white border border-gray-300 p-4 w-48 opacity-0 pointer-events-none transition-opacity duration-300 peer-hover:opacity-100 peer-hover:pointer-events-auto z-10"  style="right: -200px; top: 50%">
+            Sets the maximum total token supply limit for minting. Limit cannot be changed after the initial token creation.
+          </div>
+        </div>
       </label>
     </div>
     <div class="mb-2">
-      <label
-        for="charge-transaction"
-        class="flex items-center cursor-pointer select-none"
-      >
+      <label for="transaction-tax" class="flex items-center cursor-pointer select-none relative group">
         <div class="relative">
-          <input
-            type="checkbox"
-            id="charge-transaction"
-            class="peer sr-only"
-          />
-          <div
-            class="block h-8 rounded-full bg-gray-300 w-14"
-          ></div>
-          <div
-            class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"
-          ></div>
+          <input type="checkbox" id="transaction-tax" class="peer sr-only" />
+          <div class="block h-8 rounded-full bg-gray-300 w-14"></div>
+          <div class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"></div>
         </div>
         <span class="text-white">Charge Transaction Tax / Fee</span>
+        <div class="relative">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-6 h-6 ml-2 peer">
+            <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+          </svg>
+          <div class="absolute top-1/2 transform -translate-y-1/2 ml-2 bg-white border border-gray-300 p-4 w-48 opacity-0 pointer-events-none transition-opacity duration-300 peer-hover:opacity-100 peer-hover:pointer-events-auto z-10"  style="right: -200px; top: 50%">
+            If activated, the specified portion of a token transfer will go to the specified tax / fee wallet. Be aware that enabling tax gives central authority to the token creator. It may make your token incompatible with some DeFi protocols. Cannot be deactivated after initial token creation.
+          </div>
+        </div>
       </label>
     </div>
     <div class="mb-2">
-      <label
-        for="burn-fee"
-        class="flex items-center cursor-pointer select-none"
-      >
+      <label for="burn-fee" class="flex items-center cursor-pointer select-none relative group">
         <div class="relative">
-          <input
-            type="checkbox"
-            id="burn-fee"
-            class="peer sr-only"
-          />
-          <div
-            class="block h-8 rounded-full bg-gray-300 w-14"
-          ></div>
-          <div
-            class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"
-          ></div>
+          <input type="checkbox" id="burn-fee" class="peer sr-only" />
+          <div class="block h-8 rounded-full bg-gray-300 w-14"></div>
+          <div class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"></div>
         </div>
-        <span class="text-white">Apply Burn Fee (Deflationary Token) </span>
+        <span class="text-white">Apply Burn Fee (Deflationary Token)</span>
+        <div class="relative">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-6 h-6 ml-2 peer">
+            <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+          </svg>
+          <div class="absolute top-1/2 transform -translate-y-1/2 ml-2 bg-white border border-gray-300 p-4 w-48 opacity-0 pointer-events-none transition-opacity duration-300 peer-hover:opacity-100 peer-hover:pointer-events-auto z-10"  style="right: -200px; top: 50%">
+            If activated, the specified portion of a token transfer will go to the specified tax / fee wallet. Be aware that enabling tax gives central authority to the token creator. It may make your token incompatible with some DeFi protocols. Cannot be deactivated after initial token creation.
+          </div>
+        </div>
       </label>
     </div>
     <div class="mb-2">
-      <label
-        for="holder-rewards"
-        class="flex items-center cursor-pointer select-none"
-      >
+      <label for="holder-rewards" class="flex items-center cursor-pointer select-none relative group">
         <div class="relative">
-          <input
-            type="checkbox"
-            id="holder-rewards"
-            class="peer sr-only"
-          />
-          <div
-            class="block h-8 rounded-full bg-gray-300 w-14"
-          ></div>
-          <div
-            class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"
-          ></div>
+          <input type="checkbox" id="holder-rewards" class="peer sr-only" />
+          <div class="block h-8 rounded-full bg-gray-300 w-14"></div>
+          <div class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"></div>
         </div>
-        <span class="text-white">Apply Holder Rewards (Reflection Token) </span>
+        <span class="text-white">Apply Holder Rewards (Reflection Token)</span>
+        <div class="relative">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-6 h-6 ml-2 peer">
+            <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+          </svg>
+          <div class="absolute top-1/2 transform -translate-y-1/2 ml-2 bg-white border border-gray-300 p-4 w-48 opacity-0 pointer-events-none transition-opacity duration-300 peer-hover:opacity-100 peer-hover:pointer-events-auto z-10"  style="right: -200px; top: 50%">
+            If activated, the specified portion of a token will be distributed to token holders at each transfer. It may make your token incompatible with some DeFi protocols. The reward rate can be changed after the initial token creation.
+          </div>
+        </div>
       </label>
     </div>
     <div class="mb-2">
@@ -281,45 +269,41 @@
       </label>
     </div>
     <div class="mb-2">
-      <label
-        for="has-document"
-        class="flex items-center cursor-pointer select-none"
-      >
+      <label for="has-document" class="flex items-center cursor-pointer select-none relative group">
         <div class="relative">
-          <input
-            type="checkbox"
-            id="has-document"
-            class="peer sr-only"
-          />
-          <div
-            class="block h-8 rounded-full bg-gray-300 w-14"
-          ></div>
-          <div
-            class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"
-          ></div>
+          <input type="checkbox" id="has-document" class="peer sr-only" />
+          <div class="block h-8 rounded-full bg-gray-300 w-14"></div>
+          <div class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"></div>
         </div>
-        <span class="text-white"> Has Document </span>
+        <span class="text-white">Has Document</span>
+        <div class="relative">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-6 h-6 ml-2 peer">
+            <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+          </svg>
+          <div class="absolute top-1/2 transform -translate-y-1/2 ml-2 bg-white border border-gray-300 p-4 w-48 opacity-0 pointer-events-none transition-opacity duration-300 peer-hover:opacity-100 peer-hover:pointer-events-auto z-10"  style="right: -200px; top: 50%">
+            A hash or URL can be used to reference documentation of the underlying asset. Can be edited after a token is successfully minted.
+          </div>
+        </div>
       </label>
     </div>
     <div class="mb-2">
-      <label
-        for="max-number"
-        class="flex items-center cursor-pointer select-none"
-      >
+      <label for="max-number" class="flex items-center cursor-pointer select-none relative group">
         <div class="relative">
-          <input
-            type="checkbox"
-            id="max-number"
-            class="peer sr-only"
-          />
-          <div
-            class="block h-8 rounded-full bg-gray-300 w-14"
-          ></div>
-          <div
-            class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"
-          ></div>
+          <input type="checkbox" id="max-number" class="peer sr-only" />
+          <div class="block h-8 rounded-full bg-gray-300 w-14"></div>
+          <div class="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1 peer-checked:translate-x-full peer-checked:bg-primary"></div>
         </div>
-        <span class="text-white">Max Number of Tokens per Address is Limited </span>
+        <span class="text-white">Max number of tokens per address is limited</span>
+        <div class="relative">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w-6 h-6 ml-2 peer">
+            <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path fill="#ffffff" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336l24 0 0-64-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l48 0c13.3 0 24 10.7 24 24l0 88 8 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-80 0c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+          </svg>
+          <div class="absolute top-1/2 transform -translate-y-1/2 ml-2 bg-white border border-gray-300 p-4 w-48 opacity-0 pointer-events-none transition-opacity duration-300 peer-hover:opacity-100 peer-hover:pointer-events-auto z-10"  style="right: -200px; top: 50%">
+            Sets maximum token balance per individual address. Limit can be increased after initial token creation.
+          </div>
+        </div>
       </label>
     </div>
     </div>
