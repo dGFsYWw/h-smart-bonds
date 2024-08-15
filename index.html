@@ -7,6 +7,17 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <style>
+        /* Add CSS to position the lottie-player */
+        .lottie-container {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            transform: translateX(-50%);
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
     <div class="min-h-screen bg-custom">
@@ -95,6 +106,10 @@
             </ul>
           </div>
         </aside>
+        <!-- Image -->
+        <div class="lottie-container">
+          <lottie-player src="https://lottie.host/e03ce673-77e4-4de7-9c97-7230dcd2f0c7/cfy96rRrdB.json" background="##fff" speed="1" style="width: 300px; height: 300px" loop controls autoplay direction="1" mode="normal"></lottie-player>
+      </div>
         <!-- Banner -->
         <div class="p-4 xl:ml-80">
           <nav class="block w-full max-w-full bg-transparent text-white shadow-none rounded-xl transition-all px-0 py-1">
