@@ -6,7 +6,8 @@
   <title>Manage Token</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
 </head>
 <body>
     <div class="min-h-screen bg-custom">
@@ -95,23 +96,23 @@
       </ul>
     </div>
   </aside>
-  <div class="container mx-auto flex justify-between gap-8">
-    <div style="margin-left: 250px;">
-      <h1 class="text-3xl font-bold mb-4">Manage your Tokens</h1>
+  <div class="container mx-auto flex justify-between gap-8 border-none mt-0 shadow-none">
+      <div style="margin-left: 250px;">
+      <h1 class="text-3xl font-bold mb-4 text-white">Manage your Tokens</h1>
       <ul class="list-disc pl-5">
-        <li>Create liquidity pool</li>
-        <li>Mint additional tokens, burn tokens</li>
-        <li>Change token owner or renounce ownership</li>
-        <li>Pause and unpause, manage whitelist and blacklist</li>
-        <li>Works with all tokens that were created with Token Tool</li>
-        <li>Manage token product <a href="#" class="underline text-blue-500">documentation</a></li>
+        <li class="text-white">Create liquidity pool</li>
+        <li class="text-white">Mint additional tokens, burn tokens</li>
+        <li class="text-white">Change token owner or renounce ownership</li>
+        <li class="text-white">Pause and unpause, manage whitelist and blacklist</li>
+        <li class="text-white">Works with all tokens that were created with Token Tool</li>
+        <li class="text-white">Manage token product <a href="#" class="underline text-blue-500">documentation</a></li>
       </ul>
     </div>
     <div class="right-column w-1/2">
-      <h2 class="text-2xl font-bold mb-2">Token contract address<span class="text-red-500">*</span></h2>
+      <h2 class="text-2xl font-bold mb-2 text-white">Token contract address<span class="text-red-500">*</span></h2>
       <input type="text" class="border rounded-md px-3 py-2 w-full mb-4" placeholder="Enter token address">
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md">Continue</button>
-      <p class="mt-4">Don't have your own token yet? <a href="#" class="underline text-blue-500">Create Token</a></p>
+      <p class="mt-4 text-white">Don't have your own token yet? <a href="create-token.html" class="underline text-blue-500">Create Token</a></p>
     </div>
   </div>
 </body>
